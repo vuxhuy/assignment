@@ -1,5 +1,3 @@
-LOGFILE=$(shell date --iso=seconds)
-
 README.md:
 	touch README.md
 	echo "# The Unix Workbench Assignment" >> README.md
