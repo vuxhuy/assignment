@@ -1,5 +1,5 @@
 function guessing {
-  local nofile=$(ls -a | wc -l)
+  local nofile=$(ls -A | wc -l)
 
   while :
   do
